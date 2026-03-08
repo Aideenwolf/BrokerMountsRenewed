@@ -1,0 +1,14 @@
+package-as: BrokerMountsRenewed
+enable-nolib-creation: no
+
+ignore: # Files and directories beginning with a dot (such as .git) are automatically ignored, as is the pgkmeta file itself.
+    - .github/
+
+# Mine
+
+externals:
+  libs/CallbackHandler-1.0: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
+  libs/LibStub: https://repos.wowace.com/wow/libstub/trunk
+  libs/LibDataBroker-1.1: https://repos.wowace.com/wow/libdatabroker-1-1
+
+  libs/LibSharedMedia-3.0: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk
