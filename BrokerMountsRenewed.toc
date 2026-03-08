@@ -1,0 +1,13 @@
+## Interface: 80000, 120000
+## Title: BrokerMountsRenewed
+## Notes: Access mounts from a broker display.
+## Author: Shackleford
+## X-Embeds: LibDataBroker-1.1
+## Version: 8.01
+## SavedVariablesPerCharacter: lastmountIndex, lastmountText, lastmountIcon, lastmountSpell, favmount1index, favmount1name, favmount1icon, favmount2icon, favmount2name, favmount2index, favmount3icon, favmount3name, favmount3index, togglefavorite
+
+libs\LibStub\LibStub.lua
+libs\CallBackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+BrokerMountsRenewed.lua
